@@ -1,0 +1,23 @@
+ header{
+     background-color: black;
+     color: whit;
+     height: 70px;
+     padding-left: 20px;
+     width:100%;
+     overflow: visible;
+     position: fixed;
+     top: 0;
+     margin-bottom: 20px;
+ }
+ .apply:hover{
+    background-color: green;
+    color: white;
+    transition: .5s ease;
+  }
+  .grid{
+      display: grid;
+      grid-template-columns: 3fr 2fr 1fr ;
+      column-gap: 20px;
+      background-color: rgb(136, 136, 207);
+      color: white;
+  }

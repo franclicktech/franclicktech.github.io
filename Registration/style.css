@@ -1,0 +1,147 @@
+header{
+  background-color: black;
+  color: white;
+  height: 70px;
+  padding-top: 20px;
+  width: 100%;
+  overflow:visible;
+  position: fixed;
+  top: 0;
+  margin-bottom: 20px;
+ 
+
+}
+header a{ 
+  color: white;
+}
+.h2{
+    color: red;
+    background-color: black;
+}
+.button{
+    background-color: green;
+    border-radius: 30px;
+}
+.courses a{
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+.courses li{
+  color: white;
+} 
+.apply:hover{
+  background-color: green;
+  color: white;
+  transition: .5s ease;
+
+}
+.reg{
+  border:rgb(13, 166, 218);
+  background-color: rgb(228, 222, 222);
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+                                                         /* text*/
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .div{
+      margin-left: 1200px;
+      border: 1px double red;
+      text-align: right;
+  }
+  .slide{
+      background-color: blue;
+      color: white;
+      
+
+    }
+  .grid{
+      display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
+      column-gap: 30px;
+
+  }
+  .grid p{
+      text-align: justify;
+  }
+  
+.slide-txt{
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.homebtn{
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+}
+.homebtn a{
+ text-decoration: none;
+}
+
+
+    

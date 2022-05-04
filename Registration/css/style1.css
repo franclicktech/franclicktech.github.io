@@ -1,0 +1,185 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar  a.active {
+    background-color: #c1c6ca;
+     color: white;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-align: center;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: red;
+}
+.dropdown-content{
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;  
+}
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding:  12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.image{
+    background-image: url(pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.pad{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: red;
+}
+.h3{
+    padding-left: 50px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.img{
+    border-radius: 50px;
+}
+#img{
+    height: 150px;
+    width: 300px;
+}
+.h2{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+#main {
+     margin-top: 60px; /* Add a top margin to avoid content overlay */
+ }
+
+#h2{
+    margin-left: 10px;
+    color: brown;
+    text-align: center;
+}
+.p{
+    margin-left: 15px;
+    color: blue;
+}
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.navbar .search-container {
+float: right;
+margin-right: 15px;
+}
+.navbar.search-container button:hover {
+    background: rgb(245, 226, 226);
+}
+
+    /* Style the button inside the input container */
+.navbar .search-container button {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(3, 3, 83);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+.last_div{
+    background-color: rgb(128, 240, 165);
+    color: #333;
+    text-align: center;
+    height: 300px;
+    padding-top: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+/* media style  
+
+@media(min-width:700px){
+    #grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        column-gap: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .grid2{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+}*/
+/* adding media query*/
+@media(min-width:700px){
+    #grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        column-gap: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: blue;
+        color: green;
+    }
+    .grid2{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+}
